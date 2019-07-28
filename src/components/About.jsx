@@ -1,17 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
-import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
-import './Home.css';
+import React from 'react';
+import { CareerCard } from './CareerCard';
 
+export const About = () => (
 
-export default class About extends Component {
-
-    render(){
-        return (
-            <div>
-                About
-            </div>
-
-        );
-    }
-}
+    <CareerCard/>
+)

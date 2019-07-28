@@ -33,24 +33,38 @@ export default class ControlledCarousel extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={process.env.PUBLIC_URL + '/assets/me.png'}
-              alt="First slide"
+              src={'/assets/tech-stack1.png'}
+              alt="Second slide"
+              height="400"
+              fluid
             />
-            <Carousel.Caption>
-              <h3>Me</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={process.env.PUBLIC_URL + '/assets/me.png'}
+              src={'/assets/tech-stack2.png'}
               alt="Second slide"
+              height="400"
+              fluid
             />
-            <Carousel.Caption>
-              <h3>Again</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={'/assets/tech-stack3.png'}
+              alt="Second slide"
+              height="400"
+              fluid
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={'/assets/tech-stack4.png'}
+              alt="Second slide"
+              height="400"
+              fluid
+            />
           </Carousel.Item>
         </Carousel>
       );
